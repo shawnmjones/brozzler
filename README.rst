@@ -156,7 +156,7 @@ Next install the build tools and fetch the source code:
     mkdir -p ~/chromium
     cd ~/chromium
     git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
-    export $PATH=$PWD/depot_tools:$PATH
+    export PATH=$PWD/depot_tools:$PATH
     fetch --no-history chromium --nosvn=True
 
 Configure a headless release build (the debug builds are much larger):
